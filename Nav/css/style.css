@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.mysticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #450467;
+}
+nav{
+    background: #03405A;
+    text-align: center;
+}
+.dropdown a{
+    color: white;
+    font-size: 20px;
+    padding: 8px 0;
+    display: inline-block;
+}
+.dropdown{
+    display: none;
+}
+nav .menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav .menu > ul > li{
+    display: inline-block;
+    position: relative;
+}
+nav .menu ul li a{
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu ul ul{
+    background: #045375;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-size: 12px;
+    display: none;
+}
+.tp{
+    background: #045375;
+    padding: 13px 15px;
+    margin: 5px;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
